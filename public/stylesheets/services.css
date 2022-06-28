@@ -1,0 +1,17 @@
+nav a{
+	padding: 3%;
+	color: black;
+}
+.serv1 h1{
+	text-align: center;
+	color: lightblue;
+}
+.serv1 p{
+	text-align: center;
+}
+.serv1 h3{
+	color: lightblue;
+}
+.serv1 img{
+	height: 80%;
+}

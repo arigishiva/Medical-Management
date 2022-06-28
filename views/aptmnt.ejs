@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>patient</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/loginst.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="/javascripts/angular.js"></script>
+
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+
+<body>
+
+  <div class="container border border-primary bg-primary" ng-app="myApp" ng-controller="myctrl">
+  <h1 class="logone">Make An Appointment Today</h1>
+  <form class="form-horizontal logcss">
+    <div class="form-group">
+      <label class="control-label" for="Email">FullName:</label>
+        <input type="text" class="form-control" id="fullname" placeholder="Enter email" name="fullname" ng-model="user.fullname" >
+    </div>
+    <div class="form-group">
+      <label class="control-label" for="Email">Email:</label>
+        <input type="email" class="form-control" id="Email" placeholder="Enter email" name="Email" ng-model="user.Email" >
+    </div>
+    
+    <div class="form-group">
+      <label class="control-label" for="birth">Date Of Birth:</label>
+               
+        <input type="date" class="form-control" id="birth" placeholder="Enter your dateofbirth" name="birth" ng-model="user.birth" >
+      
+    </div>
+    <div class="form-group">
+      <label class="control-label" for="age">Age:</label>
+               
+        <input type="text" class="form-control" id="age" placeholder="Enter your age" name="age"  ng-model="user.age"  >
+      
+    </div>
+    <!--<label class="control-label ">Gender:</label>
+
+    <div class="form-check">
+
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Male
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    FeMale
+  </label>
+</div>-->
+    <div class="form-group">
+      <label class="control-label" for="state">Enter State:</label>
+               
+        <input type="text" class="form-control" id="state" placeholder="Enter your state"  name="state" ng-model="user.state"  >
+      
+    </div>
+    <div class="form-group">
+      <label class="control-label" for="village">Village Name:</label>
+               
+        <input type="text" class="form-control" id="village" placeholder="Enter your village" name="village" ng-model="user.village"  >
+      
+    </div>
+    <div class="form-group">
+      <label class="control-label" for="code">Pincode</label>
+               
+        <input type="text" class="form-control" id="code" placeholder="Enter your pincode" name="code" ng-model="user.code" >
+      
+    </div>
+    <button type="submit" class="btn btn-default" ng-click="postdata(user)">Submit</button>
+
+  </form>
+</div>
+
+
+</body>
+
+</html>

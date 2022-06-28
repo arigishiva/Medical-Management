@@ -1,0 +1,71 @@
+body{
+	 background: no-repeat url('/images/dctrimage.jpg') ;
+	/* background-size:contain;*/
+	 
+	 
+}
+.mainone{
+	float: left;
+	border-radius: 2px solid black;
+	box-shadow: 0 0 7px rgba(0,0,0,0.8);
+}
+
+.maintwo{
+	border-radius: 2px solid black;
+	box-shadow: 0 0 7px rgba(0,0,0,0.8);
+
+}
+
+.mainclr{
+	color: red;
+}
+.mainone h2{
+	color: yellow;
+}
+.maintwo h2{
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.mainone{
+	color: red;
+	text-align: right;
+	padding:10% 0% 50% 60%;
+
+}
+.mainone h1{
+	font-size: 300%;
+}
+.mainone a{
+	margin-right: 20%;
+	padding: 1% 5% 1% 5%;
+}
+.mainone h2{
+	color: blue;
+	padding: 1% 5% 1% 5%;
+}
+.mainone a{
+	margin-top: 2%;
+}*/
+
